@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Stencil Component Starter</title>
+
+  <script type="module" src="/build/stencil-listener.esm.js"></script>
+  <script nomodule src="/build/stencil-listener.js"></script>
+
+  <style>
+    .first {
+      border: 1px solid red;
+    }
+
+    .second {
+      border: 1px solid blue;
+    }
+
+    my-tabs {
+      margin: 50px 0 0 0;
+    }
+  </style>
+</head>
+
+<body>
+  <my-tabs class="first">
+    <my-tab></my-tab>
+    <my-tab></my-tab>
+    <my-tab></my-tab>
+  </my-tabs>
+
+  <my-tabs class="second">
+    <my-tab></my-tab>
+    <my-tab></my-tab>
+  </my-tabs>
+</body>
+
+</html>
